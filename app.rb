@@ -3,8 +3,9 @@ require 'faker'
 Bundler.require
 
 get '/' do
-  json({ status: :ok, count: 100 })
+  json({ status: :ok })
 end
-get '/name' do
-  json Faker::Name.name
+
+get '/hacker' do
+  json Faker::Hacker.say_something_smart
 end
