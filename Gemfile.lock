@@ -28,6 +28,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  faker
-  sinatra
-  sinatra-contrib
+  faker (~> 1.6.1)
+  sinatra (~> 1.4.7)
+  sinatra-contrib (~> 1.4.6)
+
+BUNDLED WITH
+   1.11.2
